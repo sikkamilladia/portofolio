@@ -2,18 +2,25 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
 <title>Movie Recommendation System — Portfolio</title>
-<meta name="description" content="A one-page movie recommendation platform using collaborative filtering.">
+<meta name="description" content="A movie recommender using content-based and collaborative filtering, with a small Streamlit app.">
 <link rel="stylesheet" href="../assets/style.css">
 </head><body><main class="wrap">
 <h1>Movie Recommendation System</h1>
-<p class="meta">2024 · TODO role · TODO tools</p>
+<p class="meta">2024 · TODO role · Python, Streamlit, TF-IDF, SVD</p>
 <h2>Overview</h2>
-<p>A one-page movie recommendation platform using collaborative filtering. TODO: add 1–3 sentences on who it is for.</p>
+<p>A simplified movie recommender that implements two classic approaches side by side. It is built as a study-friendly project: it ships with a tiny sample dataset so it runs right away, and it can be switched to a larger dataset such as MovieLens later.</p>
 <h2>What I did</h2>
-<ul class="did"><li>TODO concrete action 1</li><li>TODO concrete action 2</li><li>TODO concrete action 3</li></ul>
+<ul class="did">
+<li>Built content-based filtering using TF-IDF on movie genres and cosine similarity.</li>
+<li>Built collaborative filtering using a truncated SVD on a user–item rating matrix.</li>
+<li>Added a command-line entry point and a minimal Streamlit interface.</li>
+<li>Organized the code into separate modules for data preparation and each method.</li>
+</ul>
 <h2>Result</h2>
-<p>TODO: outcome or what you learned.</p>
+<p>A working recommender that gives movie suggestions from either method. TODO: add one sentence on what you learned.</p>
 <h2>Links</h2>
-<ul class="links"><li><a href="https://github.com/sikkamilladia/movie-recommendation-system" rel="noopener">GitHub repository</a></li></ul>
+<ul class="links">
+<li><a href="https://github.com/sikkamilladia/movie-recommendation-system" rel="noopener">GitHub repository</a></li>
+</ul>
 <p class="back"><a href="../index.html">Back to all works</a></p>
 </main></body></html>
